@@ -1,0 +1,58 @@
+{
+  "Q1": {
+    "metrics": {
+      "psnr": 92.56948626917745,
+      "kl_hist": 1.164214950341511e-09,
+      "used_bits": 504,
+      "capacity_bits": 7280640,
+      "chi_before": 15673.080790418848,
+      "chi_after": 15670.799221071837,
+      "spa_after": 0.20038674874070386
+    }
+  },
+  "Q2": {
+    "capacity_bits": 7280640,
+    "capacity_bytes": 910076,
+    "law_bytes": 31660,
+    "feasible": true
+  },
+  "Q3": {
+    "trials": [
+      [
+        "orig",
+        false,
+        30
+      ],
+      [
+        "jpeg95",
+        false,
+        486776
+      ],
+      [
+        "jpeg85",
+        false,
+        486817
+      ],
+      [
+        "jpeg75",
+        false,
+        487614
+      ],
+      [
+        "resize0.75",
+        false,
+        487174
+      ],
+      [
+        "rotate2",
+        false,
+        494281
+      ],
+      [
+        "blur1",
+        false,
+        486799
+      ]
+    ]
+  }
+}
